@@ -1,0 +1,4 @@
+models/
+.DS_Store
+__pycache__/go_description.cpython-39.pyc
+.ipynb_checkpoints/
