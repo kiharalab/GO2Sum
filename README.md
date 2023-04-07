@@ -55,9 +55,9 @@ pip install --upgrade simplet5
 
 ```
 ### 5. Prepare Data
-Please download and unzip the data.zip and saved_models.zip files
+Please download and unzip the models.zip files
 
-<!-- [https://kiharalab.org/domainpfp/](https://kiharalab.org/domainpfp/) -->
+[https://kiharalab.org/GO2Sum/](https://kiharalab.org/GO2Sum/)
 need to make server hosting the data
 
 ### 6. Usage
@@ -65,7 +65,7 @@ need to make server hosting the data
 #### 6.1 To Run
 #### Running example
 ```
-python3 main.py test/test.tab function result.tab
+python3 main.py test/test1.tab function result.tab
 ```
 
 To use the script, you should create a tab-separated input file called test.tab. In this file, you can provide a list of protein names and their corresponding GO IDs in the following format:
