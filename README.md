@@ -67,7 +67,9 @@ Please download and unzip the models.zip files
 python3 main.py
 
             -input_file  ('Tab-separated file with Protein ID and GO Annotation list')
+
             -summary_type' ('Type of summary to generate :function, subunit, pathway, or all)
+            
              -output_file ('Name of result file')
 ```
 Example
