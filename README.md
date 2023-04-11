@@ -93,7 +93,7 @@ python3 main.py
                 --output_file <output_file_suffix>
 
 ```
-Replace <path_to_input_file> with the path to your input file, <summary_type> with one of the following options: function, pathway, or subunit, and <output_file_suffix> with the suffix you want to use for the output file.
+Replace <path_to_input_file> with the path to your input file, <summary_type> with one of the following options: *function, pathway, subunit, or all* and <output_file_suffix> with the suffix you want to use for the output file.
 
 #### 6.3 Example 
 
