@@ -62,6 +62,16 @@ Please download and unzip the models.zip files
 
 ### 6. Usage
 
+#### Use GO2Sum to generate summary from annotated goterms
+```
+python3 main.py
+
+            --input_file  ('Tab-separated file with Protein ID and GO Annotation list')
+
+            --summary_type' ('Type of summary to generate :function, subunit, pathway, or all)
+
+            --output_file ('Name of result file')
+```
 #### To use the script, follow these steps
 #### 6.1 Create a tab-separated input_file in the following format
 
@@ -85,9 +95,10 @@ python3 main.py
 ```
 Replace <path_to_input_file> with the path to your input file, <summary_type> with one of the following options: function, pathway, or subunit, and <output_file_suffix> with the suffix you want to use for the output file.
 
+#### 6.3 Example 
+
 For example, if your input file is named test1.tab, and you want to generate a summary of the function for each protein and save the output file with the suffix `example`, you would run the following command:
 
-####  Example
 ```
 python3 main.py --input_file test1.tab --summary_type function --output_file example
 
