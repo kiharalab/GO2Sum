@@ -7,8 +7,8 @@ from codes.model import function,subunit,pathway
 if __name__ == '__main__':
     
      # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Print all GO terms')
-    parser.add_argument('file', help='Tab-separated file with Protein ID and GO Annotation list')
+    parser = argparse.ArgumentParser(description='Run GO2Sum')
+    parser.add_argument('input_file', help='Tab-separated file with Protein ID and GO Annotation list')
     parser.add_argument('summary_type', help='Type of summary to generate (function, subunit, pathway, or all)')
     parser.add_argument('output_file', help='Name of result file')
     args = parser.parse_args()
