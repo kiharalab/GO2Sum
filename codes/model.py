@@ -42,7 +42,8 @@ def function(df,filename):
             GO_Document=get_go_description(go_ids)
             summary = predict_with_score(modelFunc,GO_Document,num_return_sequences=num_of_summary,num_beams=beam_size)
             for ele in summary:
-                writer.writerow([protein, ele[0], get_confidence_score(ele[1])])
+                # writer.writerow([protein, ele[0], get_confidence_score(ele[1])])
+                writer.writerow([protein, ele[0]])
     print('Completed generating Function CC on the dataset !')
 
 
@@ -64,7 +65,8 @@ def subunit(df,filename):
             GO_Document=get_go_description(go_ids)
             summary = predict_with_score(modelSubunit,GO_Document,num_return_sequences=num_of_summary,num_beams=beam_size)
             for ele in summary:
-                writer.writerow([protein, ele[0], get_confidence_score(ele[1])])
+                # writer.writerow([protein, ele[0], get_confidence_score(ele[1])])
+                writer.writerow([protein, ele[0]])
     print('Completed generating Subunit on the dataset !')
     
 
@@ -84,6 +86,7 @@ def pathway(df,filename):
             GO_Document=get_go_description(go_ids)
             summary = predict_with_score(modelPathway,GO_Document,num_return_sequences=num_of_summary,num_beams=beam_size)
             for ele in summary:
-                writer.writerow([protein, ele[0], get_confidence_score(ele[1])])
+                # writer.writerow([protein, ele[0], get_confidence_score(ele[1])])
+                writer.writerow([protein, ele[0]])
     print('Completed generating Pathway on the dataset !')
     

@@ -82,6 +82,8 @@ A9AJN2	GO:0004609;GO:0005886;GO:0006646
 ```
 Each row should correspond to a single protein and its associated GO IDs. The first column should contain the protein name, and the second column should contain a semicolon-separated list of GO IDs.
 
+`Sample input file named test1.tab and test.tab is provided in the test/ directory for ur reference.`
+
 #### 6.2 Run the script using the following command
 ```
 python3 main.py 
@@ -104,14 +106,14 @@ Example 1
 python3 main.py --input_file test1.tab --summary_type function --output_file example
 
 ```
-This would generate the output files function_example.tab in the result directory.
+This would generate the output files `function_example.tab` in the `result` directory.
 
 Example 2
 ```
 python3 main.py --input_file test1.tab --summary_type all --output_file example
 
 ```
-This would generate the output files function_example.tab, subunit_example.tab, and pathway_example.tab in the result directory.
+This would generate the output files `function_example.tab, subunit_example.tab, and pathway_example.tab` in the `result` directory.
 
 
 ## Experiments
