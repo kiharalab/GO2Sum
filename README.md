@@ -66,21 +66,22 @@ Please download and unzip the models.zip files
 ```
 python3 main.py
 
-            -input_file  ('Tab-separated file with Protein ID and GO Annotation list')
+            --input_file  ('Tab-separated file with Protein ID and GO Annotation list')
 
-            -summary_type' ('Type of summary to generate :function, subunit, pathway, or all)
-            
-             -output_file ('Name of result file')
+            --summary_type' ('Type of summary to generate :function, subunit, pathway, or all)
+
+            --output_file ('Name of result file')
 ```
 Example
 ```
-python3 main.py test/test1.tab function result.tab
+python3 main.py --input_file test/test1.tab --summary_type function --output_file result.tab
 ```
 
 To use the script, you should create a tab-separated input file called test.tab. In this file, you can provide a list of protein names and their corresponding GO IDs in the following format:
 ```
 Protein	GO_IDs
 Q5AK66	GO:0000139;GO:0004609;GO:0005795;GO:0006646;GO:0006656;GO:0006659;GO:0010008;GO:0016540;GO:0036170;GO:0036171;GO:0036180;GO:0046872
+A9AJN2	GO:0004609;GO:0005886;GO:0006646
 ```
 Each row should correspond to a single protein and its associated GO IDs. The first column should contain the protein name, and the second column should contain a semicolon-separated list of GO IDs.
 
