@@ -62,22 +62,9 @@ Please download and unzip the models.zip files
 
 ### 6. Usage
 
-#### 6.1 Use GO2Sum to generate summary from annotated goterms.
-```
-python3 main.py
+#### To use the script, follow these steps
+#### 6.1 Create a tab-separated input_file in the following format
 
-            --input_file  ('Tab-separated file with Protein ID and GO Annotation list')
-
-            --summary_type' ('Type of summary to generate :function, subunit, pathway, or all)
-
-            --output_file ('Name of result file')
-```
-Example
-```
-python3 main.py --input_file test/test1.tab --summary_type function --output_file result.tab
-```
-
-To use the script, you should create a tab-separated input file called test.tab. In this file, you can provide a list of protein names and their corresponding GO IDs in the following format:
 ```
 Protein	GO_IDs
 Q5AK66	GO:0000139;GO:0004609;GO:0005795;GO:0006646;GO:0006656;GO:0006659;GO:0010008;GO:0016540;GO:0036170;GO:0036171;GO:0036180;GO:0046872
@@ -85,9 +72,27 @@ A9AJN2	GO:0004609;GO:0005886;GO:0006646
 ```
 Each row should correspond to a single protein and its associated GO IDs. The first column should contain the protein name, and the second column should contain a semicolon-separated list of GO IDs.
 
-The second argument you should provide is the summary type, which can be one of the following options: function, pathway, or subunit.
+#### 6.2 Run the script using the following command
+```
+python3 main.py 
 
-Finally, you should provide a result file suffix, which will be used to create an output file with the results. The output file will be named function_{suffix}.tab. For example, if you provide the suffix example, the output file will be named function_example.tab, subunit_example.tab and pathway_example.tab.
+                --input_file <path_to_input_file> 
+
+                --summary_type <summary_type> 
+
+                --output_file <output_file_suffix>
+
+```
+Replace <path_to_input_file> with the path to your input file, <summary_type> with one of the following options: function, pathway, or subunit, and <output_file_suffix> with the suffix you want to use for the output file.
+
+For example, if your input file is named test1.tab, and you want to generate a summary of the function for each protein and save the output file with the suffix `example`, you would run the following command:
+
+####  Example
+```
+python3 main.py --input_file test1.tab --summary_type function --output_file example
+
+```
+This would generate the output files function_example.tab, subunit_example.tab, and pathway_example.tab in the result directory.
 
 
 ## Experiments
