@@ -103,14 +103,14 @@ For example, if your input file is named test1.tab, and you want to generate a s
 
 Example 1
 ```
-python3 main.py --input_file test1.tab --summary_type function --output_file example
+python3 main.py --input_file test1.tab --summary_type function --output_file example.tab
 
 ```
 This would generate the output files `function_example.tab` in the `result` directory.
 
 Example 2
 ```
-python3 main.py --input_file test1.tab --summary_type all --output_file example
+python3 main.py --input_file test1.tab --summary_type all --output_file example.tab
 
 ```
 This would generate the output files `function_example.tab, subunit_example.tab, and pathway_example.tab` in the `result` directory.
