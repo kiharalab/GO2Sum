@@ -1,5 +1,5 @@
 
-![network_architecture](imgs/GO2Sum.png)
+![network_architecture](imgs/GO2Sum-logo.png)
 
 # GO2Sum
 
