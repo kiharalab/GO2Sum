@@ -123,5 +123,5 @@ All the codes to run the experiments are provided in /Experiments directory
 
 ## Citation:
 
-"GO2Sum: Generating Human readable functional summary from GO terms, Swagarika J Giri, Nabil Ibtehaz,  and Daisuke Kihara, In submission (2023)"
+"GO2Sum: Generating Human readable functional summary from GO terms, Swagarika Jaharlal Giri, Nabil Ibtehaz,  and Daisuke Kihara, In submission (2023)"
 
