@@ -14,7 +14,7 @@
 
 GO2Sum is a deep learning based summarizer that generates human-readable summaries for GO term annotations made by protein function prediction methods.
 
-Copyright (C) 2022 Swagarika Jaharlal Giri, Nabil Ibtehaz, Daisuke Kihara, and Purdue University.
+Copyright (C) 2023 Swagarika Jaharlal Giri, Nabil Ibtehaz, Daisuke Kihara, and Purdue University.
 
 License: GPL v3. (If you are interested in a different license, for example, for commercial use, please contact us.) 
 
