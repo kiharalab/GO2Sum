@@ -57,7 +57,7 @@ pip install --upgrade simplet5
 ### 5. Prepare Data
 Please download and unzip the models.zip files
 
-[https://kiharalab.org/GO2Sum/](https://kiharalab.org/GO2Sum/)
+[https://kiharalab.org/GO2Sum/models.zip](https://kiharalab.org/GO2Sum/models.zip)
 <!-- need to make server hosting the data -->
 
 ### 6. Usage
