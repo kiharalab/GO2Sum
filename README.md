@@ -22,6 +22,11 @@ Contact: Daisuke Kihara (dkihara@purdue.edu)
 
 For technical problems or questions, please reach to Swagarika J Giri (giri2@purdue.edu).
 
+## Citation:
+
+>Giri, S.J., Ibtehaz, N. & Kihara, D. GO2Sum: generating human-readable functional summary of proteins from GO terms. *npj Syst Biol Appl* **10**, 29 (2024). [https://doi.org/10.1038/s41540-024-00358-0](https://doi.org/10.1038/s41540-024-00358-0)
+
+
 ## Pre-required software
 Python 3.9 : https://www.python.org/downloads/    
 
@@ -119,9 +124,3 @@ This would generate the output files `function_example.tab, subunit_example.tab,
 ## Experiments
 
 All the codes to run the experiments are provided in /Experiments directory
-
-
-## Citation:
-
-"GO2Sum: Generating Human readable functional summary from GO terms, Swagarika Jaharlal Giri, Nabil Ibtehaz,  and Daisuke Kihara, In submission (2023)"
-
